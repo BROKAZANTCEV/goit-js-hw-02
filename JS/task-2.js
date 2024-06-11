@@ -2,7 +2,6 @@ function formatMessage(message, maxLength) {
     if (message.length <= maxLength) {
     return message;
   } else {
-    // Рядок перевищує maxLength
     return message.substring(0, maxLength) + "...";
   }
 }
